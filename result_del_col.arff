@@ -2,18 +2,18 @@
 
 @ATTRIBUTE age           numeric
 @ATTRIBUTE job           {admin.,blue-collar,entrepreneur,housemaid,management,retired,self-employed,services,student,technician,unemployed,unknown}
-@ATTRIBUTE marital       {divorced,married,single,unknown}
-@ATTRIBUTE edu           {edu,primary,secondary,tertiary,unknown}
+@ATTRIBUTE marital       {divorced,married,single}
+@ATTRIBUTE edu           {primary,secondary,tertiary,unknown}
 @ATTRIBUTE balance       numeric
 @ATTRIBUTE housing       {yes,no}
-@ATTRIBUTE contact       {cellular,contact,telephone,unknown}
+@ATTRIBUTE contact       {cellular,telephone,unknown}
 @ATTRIBUTE day           {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31}
 @ATTRIBUTE month         {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}
 @ATTRIBUTE duration      numeric
 @ATTRIBUTE campaign      numeric
 @ATTRIBUTE pdays         numeric
 @ATTRIBUTE previous      numeric
-@ATTRIBUTE poutcome      {failure,other,poutcome,success,unknown}
+@ATTRIBUTE poutcome      {failure,other,success,unknown}
 @ATTRIBUTE y             {yes,no}
 
 @DATA
